@@ -47,8 +47,5 @@
     </ul>
   </section>
 
-  <footer>
-    <p>&copy; 2025 আধুনিক সমাজ | ডিজাইন: ChatGPT</p>
-  </footer>
-</body>
+ </body>
 </html>
