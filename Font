@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyabartan - Library Education</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-image: url('Pratyabartan.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .overview {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .overview-text {
+            flex: 1 1 60%;
+        }
+        .overview img {
+            flex: 1 1 35%;
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #eee;
+            padding: 30px 20px;
+        }
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .contact-info {
+            flex: 1 1 40%;
+        }
+        .contact img {
+            flex: 1 1 50%;
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .social a {
+            margin-right: 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <p>Inspired to Learn</p>
+    <h1>Pratyabartan</h1>
+    <p>Change lives and make learning accessible for all</p>
+</header>
+
+<section class="section">
+    <h2>Overview</h2>
+    <div class="overview">
+        <div class="overview-text">
+            <p>Welcome to our comprehensive educational platform dedicated to Library and Information Science. This website offers a wide range of resources to support students, researchers, and professionals in the field. Whether you are preparing for competitive exams or enhancing your academic knowledge, we have everything you need.</p>
+            <ul>
+                <li>Complete Library Science Courses</li>
+                <li>Multiple Choice Questions (MCQs) for quick revision</li>
+                <li>Long Answer Questions for deep understanding</li>
+                <li>Study materials aligned with UGC NET, BLIS, MLIS, and other library science programs</li>
+                <li>Regular updates and expert-curated content</li>
+            </ul>
+            <p>Our mission is to make quality educational resources accessible and helpful for learners at every level. Start exploring and boost your career in library and information science today!</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1579154204601-01578be5f37e" alt="School Children">
+    </div>
+</section>
+
+<footer>
+    <div class="contact">
+        <div class="contact-info">
+            <h2>Contact us</h2>
+            <p><strong>Phone:</strong> [Your Number]</p>
+            <p><strong>Email:</strong> [Your Email]</p>
+            <p><strong>Address:</strong> [Your Address]</p>
+            <div class="social">
+                <strong>Social:</strong>
+                <a href="#">📘</a>
+                <a href="#">📸</a>
+            </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1603570427033-176f89e06783" alt="Writing Notes">
+    </div>
+</footer>
+
+</body>
+</html>
